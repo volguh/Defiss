@@ -1,0 +1,174 @@
+
+/*===================== CYGRE THIN ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-ThinIt.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+/*===================== CYGRE LIGHT ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-Light.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-LightIt.ttf) format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+/*===================== CYGRE BOOK ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-Book.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-BookIt.ttf) format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+/*===================== CYGRE REGULAR ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-RegularIt.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+/*===================== CYGRE MEDIUM ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre/Cygre-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-MediumIt.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+/*===================== CYGRE SEMIBOLD ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-SemiBoldIt.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+/*===================== CYGRE BOLD ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-BoldIt.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+/*===================== CYGRE EXTRABOLD ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-ExtraBoldIt.ttf) format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+/*===================== CYGRE BLACK ===================== */
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: Cygre;
+  src: url(../fonts/Cygre-BlackIt.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+/*===================== DRUK BOLD ===================== */
+@font-face {
+  font-family: Druk;
+  src: url(../fonts/drukwidecyr-bold.otf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT REGULAR ===================== */
+
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-Regular.ttf) format("Truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT MEDIUM ===================== */
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-Medium.ttf) format("Truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT SEMIBOLD ===================== */
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-SemiBold.ttf) format("Truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT BOLD ===================== */
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-Bold.ttf) format("Truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT EXTRABOLD ===================== */
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-ExtraBold.ttf) format("Truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/*===================== GOLOSTEXT EXTRABOLD ===================== */
+@font-face {
+  font-family: golos;
+  src: url(../fonts/GolosText/GolosText-Black.ttf) format("Truetype");
+  font-weight: 900;
+  font-style: normal;
+}

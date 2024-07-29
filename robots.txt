@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /img/
+Disallow: /css/
+Disallow: /php/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /config/
+Disallow: /admin/
+Disallow: /.vscode/

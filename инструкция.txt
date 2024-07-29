@@ -1,0 +1,26 @@
+версия Open Server Panel 5.4.3
+Модули Open Server Panel:
+HTTP: Apache_2.4-PHP_8.0-8.1
+PHP: PHP_8.0
+MySQL / MariaDB: MySQL-8.0-Win10
+PostgreSQL: Не использовать
+
+Сервер:
+IP-адрес сервера: 127.0.0.1
+
+Настройки портов:
+HTTP:80 HTTPS:443 FTP:21 PHP:9500 Backend:8080 MySQL:3306
+Redis:6379 MongoDB:27017 Postgres:5432 Memcache: 11211;
+
+для корректного отображения ошибок PHP 
+В Open Server Panel во вкладке дополнительно -> конфигурация
+Выбираем PHP_8.0
+Ищем параметр error_reporting, выставляем ему значение E_ALL & ~E_WARNING & ~E_NOTICE
+
+Название БД: bubbledive
+Кодировка: utf8mb4_general_ci
+
+Изначальные аккаунты:
+Пользователь — пароль 123, логин user@m.c
+Администратор — пароль 124, логин admin@m.c
+Оператор — пароль 125, логин oper@m.c

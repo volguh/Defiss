@@ -1,0 +1,114 @@
+body {
+  background-image: radial-gradient(#49494a31 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+  font-family: golos;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  height: 82px;
+  margin-top: 160px;
+}
+.login__form {
+  width: 460px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  background: #fff;
+  padding: 22px 0px 26px 0px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px 2px rgba(0, 0, 0, .1);
+}
+.login__form-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.login__form-card {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.login__form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login__form-subtitle {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.login__form-textarea {
+  width: 100%;
+  background-color: #EDEDED;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+}
+.login__form-input {
+  flex-grow: 1;
+  padding: 12px;
+  background-color: #EDEDED;
+}
+.login__form-security {
+  height: 40px;
+  aspect-ratio: 1;
+  opacity: .4;
+  transition: .2s;
+  transition-property: opacity;
+}
+.login__form-security:hover {
+  opacity: 1;
+}
+.login__form-submit {
+  padding: 14px 168px;
+  background: #DDF4DA;
+  color: #39C524;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: ease-in-out .1s;
+  transition-property: background, color, transform;
+}
+.login__form-submit:hover {
+  color: #0B4702;
+  background: #87ED77;
+}
+.login__form-submit:active {
+  transform: scale(.95) ;
+}
+
+.submit-off {
+  background: #d4d3d3;
+  color: #8f8f8f;
+  pointer-events: none;
+}
+.login__form-error {
+  width: 100%;
+  height: 40px;
+  background: #FFDFDD;
+  color: #FFDFDD;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__form-error--text {
+  color: #700808;
+  font-size: 12px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
